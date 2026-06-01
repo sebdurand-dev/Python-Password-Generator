@@ -6,11 +6,11 @@ try:
     passwordLen = int(input("How long would you like your password to be? (4-100): "))
 
     if passwordLen < 4:
-        print("Password must be at least 8 characters long.")
+        print("Password should be at least 4 characters long.")
         exit()
 
     elif passwordLen > 100:
-        print("Password must be less than 100 characters long.")
+        print("Password should be less than 100 characters long.")
         exit()
 
     else:
